@@ -11,7 +11,7 @@ const MenuDisplay = ({ menu, title }) => {
       
       <div className="flex items-center gap-6">
         <img 
-          src={menu.image} 
+          src={import.meta.env.BASE_URL + menu.image.slice(1)} 
           alt={menu.nom} 
           className="w-24 h-24 object-cover rounded-lg"
         />

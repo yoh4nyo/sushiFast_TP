@@ -22,7 +22,7 @@ const MenuDetail = () => {
       <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-lg p-6">
         <div className="flex flex-col md:flex-row gap-6">
           <div className="md:w-1/2">
-            <img src={menu.image} alt={menu.nom} className="w-full h-64 object-cover rounded-lg" />
+            <img src={import.meta.env.BASE_URL + menu.image.slice(1)} alt={menu.nom} className="w-full h-64 object-cover rounded-lg" />
           </div>
           <div className="md:w-1/2 space-y-2">
             <h1 className="text-3xl font-bold text-gray-800">{menu.nom}</h1>

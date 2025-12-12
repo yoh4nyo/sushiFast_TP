@@ -6,7 +6,7 @@ const MenuCard = ({ menu }) => {
     <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
       <div className="relative h-48 bg-gray-200">
         <img
-          src={menu.image}
+          src={import.meta.env.BASE_URL + menu.image.slice(1)}
           alt={menu.nom}
           className="w-full h-full object-cover"
         />
