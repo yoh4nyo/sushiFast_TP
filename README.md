@@ -54,6 +54,7 @@ Les données proviennent du fichier `src/data/boxes.json` avec la structure suiv
 npm install
 npm run dev
 ```
+Ou directement, le lien du site : https://yoh4nyo.github.io/sushiFast_TP/#/
 
 ## Auteurs
 
