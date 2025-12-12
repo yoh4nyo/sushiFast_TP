@@ -58,3 +58,6 @@ npm run dev
 ## Auteurs
 
 Yohan S & Alexandre L
+
+## Ressource utilisée :
+https://pixabay.com/fr/videos/japonais-japon-poisson-riz-rouleau-17624/
