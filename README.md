@@ -1,10 +1,10 @@
 # SushiFast
 
-Application web React pour le restaurant SushiFast - TP noté R5.04
+Application web React pour le restaurant SushiFast 
 
 ## Description
 
-Application développée avec React et Vite permettant de présenter les menus de sushi du restaurant SushiFast. L'application affiche les différents menus avec leurs ingrédients, quantités, prix et saveurs.
+Application développée avec React et Vite permettant de présenter les menus de sushi du restaurant SushiFast, L'application affiche les différents menus avec leurs ingrédients, quantités, prix et saveurs.
 
 ## Technologies utilisées
 
