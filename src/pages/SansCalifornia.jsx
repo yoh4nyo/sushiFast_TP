@@ -19,7 +19,7 @@ const SansCalifornia = () => {
           Sans california saumon avocat
         </h1>
         <p className="text-primary font-semibold">
-          {filteredMenus.length} menu(s) disponible(s)
+          {filteredMenus.length} menus disponibles
         </p>
       </div>
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
