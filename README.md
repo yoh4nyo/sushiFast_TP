@@ -59,6 +59,5 @@ npm run dev
 
 Yohan S & Alexandre L
 
-IUT de Meaux - MMI3 - R5.04
-
-Date de rendu : 17 décembre 2025
+## Ressource utilisée :
+https://pixabay.com/fr/videos/japonais-japon-poisson-riz-rouleau-17624/
