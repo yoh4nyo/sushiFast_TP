@@ -1,12 +1,11 @@
 import { Link } from 'react-router-dom';
-import bgVideo from '../assets/246385_small.mp4';
 
 // Page d'accueil
 const Home = () => {
   return (
     <div className="relative w-full h-[calc(100vh-5rem)] overflow-hidden">
       <video
-        src={bgVideo}
+        src="/246385_small.mp4"
         autoPlay
         loop
         muted
