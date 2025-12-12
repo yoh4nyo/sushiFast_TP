@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="relative w-full h-[calc(100vh-5rem)] overflow-hidden">
       <video
-        src="/246385_small.mp4"
+        src="/sushiFast_TP/246385_small.mp4"
         autoPlay
         loop
         muted

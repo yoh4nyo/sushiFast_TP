@@ -15,7 +15,7 @@ import './App.css';
 // Point d'entrée de l'app avec toutes les routes
 function App() {
   return (
-    <Router>
+    <Router basename="/sushiFast_TP">
       <div className="min-h-screen flex flex-col bg-gray-50">
         <Header />
         <main className="flex-grow">
