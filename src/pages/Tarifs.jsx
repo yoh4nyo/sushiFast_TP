@@ -1,6 +1,5 @@
 import { useMemo } from 'react';
 import boxesData from '../data/boxes.json';
-import { getImage } from '../utils/images';
 
 // Card pour afficher un menu avec son image et ses infos
 const MenuDisplay = ({ menu, title }) => {
@@ -12,7 +11,7 @@ const MenuDisplay = ({ menu, title }) => {
       
       <div className="flex items-center gap-6">
         <img 
-          src={getImage(menu.image)} 
+          src={menu.image} 
           alt={menu.nom} 
           className="w-24 h-24 object-cover rounded-lg"
         />

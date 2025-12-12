@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import { getImage } from '../utils/images';
 
 // Composant pour les cards des menus
 const MenuCard = ({ menu }) => {
@@ -7,7 +6,7 @@ const MenuCard = ({ menu }) => {
     <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
       <div className="relative h-48 bg-gray-200">
         <img
-          src={getImage(menu.image)}
+          src={menu.image}
           alt={menu.nom}
           className="w-full h-full object-cover"
         />
