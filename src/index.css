@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Styles pour les liens de navigation */
+.nav-link {
+  @apply px-4 py-2 text-black text-lg font-medium transition-all duration-200 hover:opacity-70;
+  font-family: 'Chewy', cursive;
+}
