@@ -58,7 +58,3 @@ npm run dev
 ## Auteurs
 
 Yohan S & Alexandre L
-
-IUT de Meaux - MMI3 - R5.04
-
-Date de rendu : 17 décembre 2025
